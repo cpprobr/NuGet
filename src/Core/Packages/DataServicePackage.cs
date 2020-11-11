@@ -54,6 +54,12 @@ namespace NuGet
             set;
         }
 
+        public string Icon
+        {
+            get;
+            set;
+        }
+
         public Uri IconUrl
         {
             get;

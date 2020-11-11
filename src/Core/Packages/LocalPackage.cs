@@ -47,6 +47,12 @@ namespace NuGet
             set;
         }
 
+        public string Icon
+        {
+            get;
+            set;
+        }
+
         public Uri IconUrl
         {
             get;
@@ -223,6 +229,7 @@ namespace NuGet
             Title = metadata.Title;
             Authors = metadata.Authors;
             Owners = metadata.Owners;
+            Icon = metadata.Icon;
             IconUrl = metadata.IconUrl;
             LicenseUrl = metadata.LicenseUrl;
             ProjectUrl = metadata.ProjectUrl;

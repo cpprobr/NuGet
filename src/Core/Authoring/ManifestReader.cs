@@ -95,6 +95,9 @@ namespace NuGet
                 case "projectUrl":
                     manifestMetadata.ProjectUrl = value;
                     break;
+                case "icon":
+                    manifestMetadata.Icon = value;
+                    break;
                 case "iconUrl":
                     manifestMetadata.IconUrl = value;
                     break;

@@ -75,6 +75,9 @@ namespace NuGet
         [XmlElement("projectUrl")]
         public string ProjectUrl { get; set; }
 
+        [XmlElement("icon")]
+        public string Icon { get; set; }
+
         [SuppressMessage("Microsoft.Design", "CA1056:UriPropertiesShouldNotBeStrings", Justification = "Xml deserialziation can't handle uris")]
         [XmlElement("iconUrl")]
         public string IconUrl { get; set; }

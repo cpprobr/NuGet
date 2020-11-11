@@ -8,6 +8,7 @@ namespace NuGet
         string Title { get; }
         IEnumerable<string> Authors { get; }
         IEnumerable<string> Owners { get; }
+        string Icon { get; }
         Uri IconUrl { get; }
         Uri LicenseUrl { get; }
         Uri ProjectUrl { get; }

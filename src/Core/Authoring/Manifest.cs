@@ -144,6 +144,7 @@ namespace NuGet
                     Tags = String.IsNullOrEmpty(metadata.Tags) ? null : metadata.Tags.SafeTrim(),
                     LicenseUrl = ConvertUrlToStringSafe(metadata.LicenseUrl),
                     ProjectUrl = ConvertUrlToStringSafe(metadata.ProjectUrl),
+                    Icon = metadata.Icon,
                     IconUrl = ConvertUrlToStringSafe(metadata.IconUrl),
                     RequireLicenseAcceptance = metadata.RequireLicenseAcceptance,
                     DevelopmentDependency = metadata.DevelopmentDependency,

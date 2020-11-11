@@ -90,6 +90,12 @@ namespace NuGet
             private set;
         }
 
+        public string Icon
+        {
+            get;
+            set;
+        }
+
         public Uri IconUrl
         {
             get;
@@ -412,6 +418,7 @@ namespace NuGet
             Title = metadata.Title;
             Authors.AddRange(metadata.Authors);
             Owners.AddRange(metadata.Owners);
+            Icon = metadata.Icon;
             IconUrl = metadata.IconUrl;
             LicenseUrl = metadata.LicenseUrl;
             ProjectUrl = metadata.ProjectUrl;
